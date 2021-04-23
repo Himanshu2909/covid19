@@ -135,17 +135,18 @@ export default function Article({ data, data2 }) {
           .replace(/<[^>]*>/g, "")
           .indexOf(".")
       )}.....`;
-  const title = data._id && `DaisForAll | ${data.title} | ${data.username}`;
-  const url = data._id && `https://www.daisforall.com/article/${data._id}`;
+  const title = data._id && `covidresources | ${data.title} | ${data.username}`;
+  const url = data._id && `https://www.covidresources.me/article/${data._id}`;
   const [condition, setCondition] = useState(data.conditions);
   let [current, setCurrent] = useState(0);
   const [computerProgramme, setComputerProgramme] = useState(
     data.computerProgramme
   );
   const [blog, setBlog] = useState(data.blog && data.blog.split("newPage"));
-  const images = data._id && "https://www.daisforall.com/logo.png";
-  const alts = data._id && "logo of the DaisForAll website";
-  const imagec = data._id && `https://www.daisforall.com/api/image/${data._id}`;
+  const images = data._id && "https://www.covidresources.me/logo.png";
+  const alts = data._id && "logo of the covidresources website";
+  const imagec =
+    data._id && `https://www.covidresources.me/api/image/${data._id}`;
 
   const altc = data._id && data.imageDescription;
   const router = useRouter();
@@ -214,7 +215,7 @@ export default function Article({ data, data2 }) {
               },
               publisher: {
                 "@type": "Organization",
-                name: "DaisForAll",
+                name: "covidresources",
                 logo: {
                   "@type": "ImageObject",
                   url: images,
@@ -334,60 +335,6 @@ export default function Article({ data, data2 }) {
                     </span>
                   </b>
                 </Link>{" "}
-                {activeUser && activeUser != data.username && (
-                  <button onClick={onFollow}>
-                    <div
-                      style={{
-                        margin: "2px",
-                        display: "inline-flex",
-                        borderRadius: "5px",
-                        padding: "5px",
-                        cursor: "pointer",
-                        backgroundColor: colors[0],
-                      }}
-                    >
-                      <div
-                        style={{
-                          display: "inline",
-                        }}
-                      >
-                        <span
-                          style={{
-                            fontSize: "11px",
-                            fontWeight: "bold",
-
-                            color: "white",
-                          }}
-                        >
-                          {activeUser &&
-                            activeUser !== data.username &&
-                            f &&
-                            "Following"}
-                          {activeUser &&
-                            activeUser !== data.username &&
-                            !f &&
-                            "Follow"}
-                        </span>
-                      </div>{" "}
-                    </div>
-                  </button>
-                )}
-              </p>
-              <p style={{ margin: "2px" }}>
-                {activeUser && activeUser != data.username && a && (
-                  <button onClick={onLike}>unlike</button>
-                )}
-                {activeUser && activeUser != data.username && !a && (
-                  <button onClick={onLike}>like</button>
-                )}
-              </p>
-              <p style={{ margin: "2px" }}>
-                {activeUser && activeUser != data.username && b && (
-                  <button onClick={onBookmark}>unBookmark</button>
-                )}
-                {activeUser && activeUser != data.username && !b && (
-                  <button onClick={onBookmark}>Bookmark</button>
-                )}
               </p>
             </p>
             <div

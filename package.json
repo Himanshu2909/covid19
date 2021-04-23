@@ -1,8 +1,8 @@
 {
-  "name": "daisforall.com",
+  "name": "covidresources.me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.daisforall.com/",
+  "homepage": "https://www.covidresources.me/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -204,12 +204,12 @@ export default function Dashboard() {
   }
   const description =
     "Have thoughts and mind ? Just share them with everyone by posting it here.";
-  const title = "DaisForAll | Dashboard";
-  const url = "https://www.daisforall.com/dashboard";
-  const images = "https://www.daisforall.com/logo.png";
-  const alts = "logo of the DaisForAll website";
-  const imagec = "https://www.daisforall.com/logo.png";
-  const altc = "logo of the DaisForAll website";
+  const title = "covidresources | Dashboard";
+  const url = "https://www.covidresources.me/dashboard";
+  const images = "https://www.covidresources.me/logo.png";
+  const alts = "logo of the covidresources website";
+  const imagec = "https://www.covidresources.me/logo.png";
+  const altc = "logo of the covidresources website";
   const tag =
     "blog, infinity, passionate bloggers, blogs, passionate, write, read, post,dashboard, live thousand lives in one world,new, blog, new blog";
   const card = "summary_large_image";
@@ -234,25 +234,18 @@ export default function Dashboard() {
           >
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
               <Form.Group controlId="formBasicEmail">
-                <Form.Label id="required">Title</Form.Label>
+                <Form.Label id="required">Heading</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Title"
+                  placeholder="Heading"
                   required
                   value={titles}
                   onChange={(e) => setTitles(e.target.value)}
                 />
               </Form.Group>
               <Form.Group controlId="formBasicEmail">
-                <Form.Label id="required">Blog</Form.Label>
-                <Form.Text>
-                  To add codepen,etc just add an iframe tag in custom html.
-                  (format-{">"}code)
-                </Form.Text>
-                <Form.Text>
-                  Want multiple pages ? just type the word newPage, wherever you
-                  want the second page to start.
-                </Form.Text>
+                <Form.Label id="required">Data</Form.Label>
+
                 <br></br>
                 <Editor
                   value={blog}
@@ -274,17 +267,16 @@ export default function Dashboard() {
                 />
               </Form.Group>
               <Form.Group controlId="formBasicEmail">
-                <Form.Label id="required">Image Description</Form.Label>
+                <Form.Label>Image Description</Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Image Description"
-                  required
                   value={imageDescription}
                   onChange={(e) => setImageDescription(e.target.value)}
                 />
               </Form.Group>
               <Form.Group controlId="formBasicEmail">
-                <Form.Label id="required">Image</Form.Label>
+                <Form.Label>Supporting Image if any</Form.Label>
                 <Form.Control
                   onChange={(event) => {
                     onChange(event.target.files[0] || null);
@@ -293,7 +285,6 @@ export default function Dashboard() {
                   type="file"
                   accept=".png, .jpg, jpeg, .svg, .webp"
                   placeholder="Image"
-                  required
                 />
               </Form.Group>
               <Form.Group>
@@ -310,37 +301,7 @@ export default function Dashboard() {
                   ></img>
                 </Form.Group>
               )}
-              <Form.Group>
-                <Button onClick={(e) => setAdditional(!additional)}>
-                  Advanced Features
-                </Button>
-              </Form.Group>
-              {additional && (
-                <div>
-                  <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Computer Programmes</Form.Label>
-                    <Editor
-                      value={computerProgramme}
-                      initialValue=""
-                      apiKey="pj9jgbi5jyqo7yzpy2wllqiw91bjvhm43wc8ug5ttzxg6wug"
-                      init={init1}
-                      onEditorChange={(e) => setCompProgramme(e)}
-                    />
-                  </Form.Group>
-                  <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Ownership Conditions</Form.Label>
-                    <Editor
-                      value={conditions}
-                      initialValue=""
-                      apiKey="pj9jgbi5jyqo7yzpy2wllqiw91bjvhm43wc8ug5ttzxg6wug"
-                      init={init1}
-                      onEditorChange={(e) => {
-                        setConditions(e);
-                      }}
-                    />
-                  </Form.Group>
-                </div>
-              )}
+
               <Form.Group>
                 <Button
                   type="submit"

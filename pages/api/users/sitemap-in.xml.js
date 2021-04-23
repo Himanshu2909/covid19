@@ -15,7 +15,9 @@ export default async (req, res) => {
     .then(async (e) => {
       let a = await e.map((e) => {
         return {
-          url: [{ loc: `https://www.daisforall.in/en-inuser/${e.username}` }],
+          url: [
+            { loc: `https://www.covidresources.in/en-inuser/${e.username}` },
+          ],
         };
       });
       return a;

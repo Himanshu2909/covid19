@@ -146,11 +146,11 @@ function MyApp({ Component, pageProps }) {
                 "@type": "Article",
                 mainEntityOfPage: {
                   "@type": "WebPage",
-                  "@id": `https://www.daisforall.com/article/${hit._id}`,
+                  "@id": `https://www.covidresources.me/article/${hit._id}`,
                 },
                 a: "",
                 headline: hit.title,
-                image: `https://www.daisforall.com/api/image/${hit._id}`,
+                image: `https://www.covidresources.me/api/image/${hit._id}`,
                 datePublished: hit.dateCreated,
                 dateModified: hit.dateUpdated,
                 author: {
@@ -276,19 +276,19 @@ function MyApp({ Component, pageProps }) {
   }, []);
   const [offline, setOffline] = useState(false);
   const description = "The page is loading please wait.";
-  const title = "DaisForAll | Loading";
-  const url = "https://www.daisforall.com";
-  const images = "https://www.daisforall.com/logo.png";
-  const alts = "logo of the DaisForAll website";
-  const imagec = "https://www.daisforall.com/logo.png";
-  const altc = "logo of the DaisForAll website";
+  const title = "covidresources | Loading";
+  const url = "https://www.covidresources.me";
+  const images = "https://www.covidresources.me/logo.png";
+  const alts = "logo of the covidresources website";
+  const imagec = "https://www.covidresources.me/logo.png";
+  const altc = "logo of the covidresources website";
   const tags =
     "blog, infinity, passionate bloggers, blogs, passionate, write, read, post, live thousand lives in one world";
   const card = "summary_large_image";
   useEffect(() => {}, []);
   return (
     <div>
-      <InstantSearch searchClient={searchClient} indexName="dev_BLOGS">
+      <InstantSearch searchClient={searchClient} indexName="dev_COVID">
         <Heads
           description={description}
           title={title}

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
-      <loc>https://www.daisforall.in/en-inapi/users/sitemap-in.xml</loc>
+      <loc>https://www.covidresources.in/en-inapi/users/sitemap-in.xml</loc>
     </sitemap>
     <sitemap>
-      <loc>https://www.daisforall.in/en-inmain-in.xml</loc>
+      <loc>https://www.covidresources.in/en-inmain-in.xml</loc>
     </sitemap>
     <sitemap>
-      <loc>https://www.daisforall.in/en-ingeneral-images-in.xml</loc>
+      <loc>https://www.covidresources.in/en-ingeneral-images-in.xml</loc>
     </sitemap>
     <sitemap>
-      <loc>https://www.daisforall.in/en-inapi/posts/sitemap-in.xml</loc>
+      <loc>https://www.covidresources.in/en-inapi/posts/sitemap-in.xml</loc>
     </sitemap>
     <sitemap>
-      <loc>https://www.daisforall.in/en-inapi/image/users/sitemap-in.xml</loc>
+      <loc>https://www.covidresources.in/en-inapi/image/users/sitemap-in.xml</loc>
     </sitemap>
     <sitemap>
-      <loc>https://www.daisforall.in/en-inapi/image/posts/sitemap-in.xml</loc>
+      <loc>https://www.covidresources.in/en-inapi/image/posts/sitemap-in.xml</loc>
     </sitemap>
     <sitemap>
-      <loc>https://www.daisforall.in/en-inapi/tags/sitemap-in.xml</loc>
+      <loc>https://www.covidresources.in/en-inapi/tags/sitemap-in.xml</loc>
     </sitemap>
   </sitemapindex>

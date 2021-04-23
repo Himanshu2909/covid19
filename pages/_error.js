@@ -4,13 +4,13 @@ import Head from "../components/head";
 export default function Error({ statusCode }) {
   const description = "You may have landed on a wrong page.";
   const title = statusCode
-    ? `DaisForAll | Error ${statusCode}`
-    : "DaisForAll | Error 404";
-  const url = "https://www.daisforall.com/_error";
-  const images = "https://www.daisforall.com/logo.png";
-  const alts = "logo of the DaisForAll website";
-  const imagec = "https://www.daisforall.com/logo.png";
-  const altc = "logo of the DaisForAll website";
+    ? `covidresources | Error ${statusCode}`
+    : "covidresources | Error 404";
+  const url = "https://www.covidresources.me/_error";
+  const images = "https://www.covidresources.me/logo.png";
+  const alts = "logo of the covidresources website";
+  const imagec = "https://www.covidresources.me/logo.png";
+  const altc = "logo of the covidresources website";
   const tags = `blog, infinity, passionate bloggers, blogs, passionate, write, read, post, live thousand lives in one world, error,${statusCode}`;
   const card = "summary_large_image";
   return (

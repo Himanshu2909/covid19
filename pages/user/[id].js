@@ -109,18 +109,18 @@ export default function User({ data, posts }) {
   ];
   data = data[0];
   const description = data.profile
-    ? "DaisForAll | " + data.description
-    : `DaisForAll profile of ${data.username}. You can see a list of their posts, etc here.`;
-  const title = data._id && `DaisForAll | ${data.username}`;
-  const url = data._id && `https://www.daisforall.com/user/${data.username}`;
+    ? "covidresources | " + data.description
+    : `covidresources profile of ${data.username}. You can see a list of their posts, etc here.`;
+  const title = data._id && `covidresources | ${data.username}`;
+  const url = data._id && `https://www.covidresources.me/user/${data.username}`;
   const [condition, setCondition] = useState(data.conditions);
   const [disabled, setDisabled] = useState(true);
   const [computerProgramme, setComputerProgramme] = useState(
     data.computerProgramme
   );
-  const images = data._id && "https://www.daisforall.com/logo.png";
-  const alts = data._id && "logo of the DaisForAll website";
-  const imagec = `https://www.daisforall.com/api/image/users/${data._id}`;
+  const images = data._id && "https://www.covidresources.me/logo.png";
+  const alts = data._id && "logo of the covidresources website";
+  const imagec = `https://www.covidresources.me/api/image/users/${data._id}`;
   const altc = `user avatar - ${data.username}`;
   const router = useRouter();
   const tag =
@@ -211,55 +211,9 @@ export default function User({ data, posts }) {
                             >
                               Posts : {posts.length}
                             </div>
-                            <div
-                              style={{
-                                display: "inline-flex",
-                                margin: "5px",
-                                backgroundColor: "#80808061",
-                                padding: "10px",
-                                borderRadius: "20px",
-                              }}
-                            >
-                              <a href="">
-                                {" "}
-                                Followers : {data.followers.length}
-                              </a>
-                            </div>
-                            <div
-                              style={{
-                                display: "inline-flex",
-                                margin: "5px",
-                                backgroundColor: "#80808061",
-                                padding: "10px",
-                                borderRadius: "20px",
-                              }}
-                            >
-                              <a href="">
-                                {" "}
-                                Following : {data.following.length}
-                              </a>
-                            </div>
                           </h6>
                           <br></br>
                           <br></br>
-                          {status == "loggedIn" && (
-                            <>
-                              {" "}
-                              <Button
-                                style={{ margin: "2px" }}
-                                disabled={disabled}
-                                onClick={onFollow}
-                              >
-                                {f ? "Unfollow" : "Follow"}
-                              </Button>
-                              <Button
-                                style={{ margin: "2px", display: "none" }}
-                                disabled={disabled}
-                              >
-                                Message
-                              </Button>
-                            </>
-                          )}
                         </div>
                       </div>
                     </div>
@@ -486,11 +440,11 @@ export default function User({ data, posts }) {
                                       "@type": "Article",
                                       mainEntityOfPage: {
                                         "@type": "WebPage",
-                                        "@id": `https://www.daisforall.com/article/${e._id}`,
+                                        "@id": `https://www.covidresources.me/article/${e._id}`,
                                       },
                                       a: "",
                                       headline: e.title,
-                                      image: `https://www.daisforall.com/api/image/${e._id}`,
+                                      image: `https://www.covidresources.me/api/image/${e._id}`,
                                       datePublished: e.dateCreated,
                                       dateModified: e.dateUpdated,
                                       author: {

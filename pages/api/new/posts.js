@@ -11,7 +11,7 @@ export default async (req, res) => {
     "8PCXEU15SU",
     "fc652d91b2d6db2718b47254be4c5d6e"
   );
-  const index = client.initIndex("dev_BLOGS");
+  const index = client.initIndex("dev_COVID");
   if (req.method == "POST") {
     const { db } = await connectToDatabase();
 
@@ -51,7 +51,7 @@ export default async (req, res) => {
               username: req.body.username,
               tags: req.body.tags.split("#").join(" "),
               blog: req.body.blog,
-              image: `https://www.daisforall.com/api/image/${e.ops[0]._id}`,
+              image: `https://www.covidresources.me/api/image/${e.ops[0]._id}`,
               imageDescription: req.body.imageDescription,
               dateCreated: new Date(),
               dateUpdated: new Date(),

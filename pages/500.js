@@ -2,12 +2,12 @@ import Footer from "../components/footer";
 import Head from "../components/head";
 export default function Error404() {
   const description = "You may have landed on a wrong page.";
-  const title = "DaisForAll | Error 404";
-  const url = "https://www.daisforall.com/404";
-  const images = "https://www.daisforall.com/logo.png";
-  const alts = "logo of the DaisForAll website";
-  const imagec = "https://www.daisforall.com/logo.png";
-  const altc = "logo of the DaisForAll website";
+  const title = "covidresources | Error 404";
+  const url = "https://www.covidresources.me/404";
+  const images = "https://www.covidresources.me/logo.png";
+  const alts = "logo of the covidresources website";
+  const imagec = "https://www.covidresources.me/logo.png";
+  const altc = "logo of the covidresources website";
   const tags =
     "blog, infinity, passionate bloggers, blogs, passionate, write, read, post, live thousand lives in one world,404,error";
   const card = "summary_large_image";

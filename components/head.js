@@ -13,17 +13,17 @@ export default function Head({
 }) {
   tags =
     tags +
-    "infiniti, cyou, daisforall, DaisForAll, daisonline, daisOnline,infinity.cyou, arnavgupta.net, passionatebloggers.me, daisforall.com, daisforall.in, www.infinity.cyou, www.arnavgupta.net, www.passionatebloggers.me, www.daisforall.com, www.daisforall.in";
+    "covid19, india, covid resources, infiniti, cyou, covidresources, covidresources, daisonline, daisOnline,infinity.cyou, arnavgupta.net, passionatebloggers.me, covidresources.me, covidresources.in, www.infinity.cyou, www.arnavgupta.net, www.passionatebloggers.me, www.covidresources.me, www.covidresources.in";
   return (
     <Heads>
       <link
         rel="alternate"
-        href="https://www.daisforall.com"
+        href="https://www.covidresources.me"
         hreflang="x-default"
       />
       <link
         rel="alternate"
-        href="https://www.daisforall.com"
+        href="https://www.covidresources.me"
         hreflang="en-us"
       />
       <link
@@ -48,7 +48,7 @@ export default function Head({
       />
       <link
         rel="alternate"
-        href="https://www.daisforall.in/en-in/"
+        href="https://www.covidresources.in/en-in/"
         hreflang="en-in"
       />
       <script
@@ -59,7 +59,7 @@ export default function Head({
             "@context": "https://schema.org",
             "@type": "Organization",
             url: url,
-            logo: "https://www.daisforall.cyou/logo.png",
+            logo: "https://www.covidresources.cyou/logo.png",
           }),
         }}
       ></script>
@@ -78,7 +78,7 @@ export default function Head({
               "https://www.youtube.com/channel/UCzzfqCy-j9XZA5KNosqzh6w",
               "https://www.arnavgupta.net//en-nl/",
               "https://www.infinity.cyou//en-nl/",
-              "https://www.daisforall.com/",
+              "https://www.covidresources.me/",
               "https://www.daisonline.com/en-nl/",
               "ananyagupta.net",
               "ananya gupta",
@@ -92,7 +92,7 @@ export default function Head({
               "gaurav",
               "reyansh",
               "priyajan",
-              "https://www.daisforall.in//en-in/",
+              "https://www.covidresources.in//en-in/",
               "https://www.passionatebloggers.me/en-nl/",
               "https://www.instagram.com/infinity.newtech/",
               "https://www.linkedin.com/in/arnav-gupta-0922341a9/",

@@ -39,17 +39,18 @@ export default function Footer() {
               <div className="widget subscribe no-box">
                 <Link href="/" style={{ cursor: "pointer" }}>
                   <h5 className="widget-title" style={{ cursor: "pointer" }}>
-                    DaisForAll
+                    covidresources
                     <span></span>
                   </h5>
                 </Link>
                 <p>
-                  DaisForAll offers an opportunity to every blogger out there to
-                  display their thoughts in front of everyone. ‘Better to write
-                  for yourself and have no public, than to write for the public
-                  and have no self’. DaisForAll is a website where you can write
-                  your thoughts and let people live in a thousand worlds before
-                  they die.
+                  COVID RESOURCES - AMMENDED FOR THE FOLLOWING DUE TO CURRENT
+                  CIRCUMBSTANCES <br></br>covidresources offers an opportunity
+                  to every blogger out there to display their thoughts in front
+                  of everyone. ‘Better to write for yourself and have no public,
+                  than to write for the public and have no self’. covidresources
+                  is a website where you can write your thoughts and let people
+                  live in a thousand worlds before they die.
                 </p>
               </div>
             </div>
@@ -66,9 +67,7 @@ export default function Footer() {
                   <li>
                     <Link href="/about">&nbsp;About</Link>
                   </li>
-                  <li>
-                    <Link href="/blogs">&nbsp;Blogs</Link>
-                  </li>
+
                   <li>
                     <Link href="/privacy-policy">&nbsp;Privacy Policy</Link>
                   </li>
@@ -84,38 +83,6 @@ export default function Footer() {
                 <h5 className="widget-title">
                   Follow up<span></span>
                 </h5>
-                {[
-                  {
-                    url: "https://www.facebook.com/infinity.newTechnology",
-                    image: "/facebook.webp",
-                    media: "facebook",
-                  },
-                  {
-                    url: "https://www.instagram.com/infinity.newtech/",
-                    image: "/instagram.webp",
-                    media: "instagram",
-                  },
-                  {
-                    url: "https://twitter.com/infinityNewTech",
-                    image: "/twitter.webp",
-                    media: "twitter",
-                  },
-                  {
-                    url: "https://www.linkedin.com/in/arnav-gupta-0922341a9/",
-                    image: "/linkedin.webp",
-                    media: "linkedin",
-                  },
-                ].map((e) => (
-                  <a className="fa" href={e.url} style={{ marginRight: "4px" }}>
-                    {" "}
-                    <Image
-                      src={e.image}
-                      alt={e.media}
-                      height="11"
-                      width="11px"
-                    ></Image>
-                  </a>
-                ))}
               </div>
             </div>
             <br />
@@ -185,7 +152,7 @@ export default function Footer() {
                   style={{ color: "white !important" }}
                 >
                   <span className="white" style={{ cursor: "pointer" }}>
-                    DaisForAll
+                    covidresources
                   </span>
                 </Link>{" "}
                 @ 2021. All rights reserved.

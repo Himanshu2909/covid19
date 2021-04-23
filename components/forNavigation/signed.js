@@ -13,9 +13,7 @@ export default function Signed() {
           <Dropdown.Item key="profile">
             <Link href="/your-profile">Profile</Link>
           </Dropdown.Item>
-          <Dropdown.Item key="bookmarks">
-            <Link href="/bookmarks">Bookmarks</Link>
-          </Dropdown.Item>
+
           <Dropdown.Item key="new post">
             <Link href="/dashboard">New Post</Link>
           </Dropdown.Item>

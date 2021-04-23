@@ -165,16 +165,16 @@ export default function User() {
       .catch((e) => e.response && router.push("/"));
   };
   const description = "View your profile and edit some stuff here.";
-  const title = data._id && `DaisForAll | Your Profile`;
-  const url = data._id && `https://www.daisforall.com/your-profile`;
+  const title = data._id && `covidresources | Your Profile`;
+  const url = data._id && `https://www.covidresources.me/your-profile`;
   const [condition, setCondition] = useState(data.conditions);
   const [computerProgramme, setComputerProgramme] = useState(
     data.computerProgramme
   );
-  const images = data._id && "https://www.daisforall.com/logo.png";
-  const alts = data._id && "logo of the DaisForAll website";
+  const images = data._id && "https://www.covidresources.me/logo.png";
+  const alts = data._id && "logo of the covidresources website";
   const imagec = data.image
-    ? `https://www.daisforall.com/api/image/users/${data._id}`
+    ? `https://www.covidresources.me/api/image/users/${data._id}`
     : images;
   const altc = `user avatar - ${data.username}`;
   const router = useRouter();
@@ -655,11 +655,11 @@ export default function User() {
                                         "@type": "Article",
                                         mainEntityOfPage: {
                                           "@type": "WebPage",
-                                          "@id": `https://www.daisforall.com/article/${e._id}`,
+                                          "@id": `https://www.covidresources.me/article/${e._id}`,
                                         },
                                         a: "",
                                         headline: e.title,
-                                        image: `https://www.daisforall.com/api/image/${e._id}`,
+                                        image: `https://www.covidresources.me/api/image/${e._id}`,
                                         datePublished: e.dateCreated,
                                         dateModified: e.dateUpdated,
                                         author: {

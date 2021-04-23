@@ -44,12 +44,12 @@ module.exports = {
     defaultLocale: "en-us",
     domains: [
       {
-        domain: "www.daisforall.com",
+        domain: "www.covidresources.me",
         defaultLocale: "en-us",
       },
 
       {
-        domain: "www.daisforall.in",
+        domain: "www.covidresources.in",
         defaultLocale: "en-in",
       },
       {

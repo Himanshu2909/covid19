@@ -74,13 +74,13 @@ export default function Home(data) {
     "#97c230",
   ];
   data = data.data;
-  const description = `DaisForAll posts tagged in ${id}`;
-  const title = `DaisForAll | Tags | ${id}`;
-  const url = `https://www.daisforall.com/tags/${id}`;
-  const images = "https://www.daisforall.com/logo.png";
-  const alts = "logo of the DaisForAll website";
-  const imagec = "https://www.daisforall.com/logo.png";
-  const altc = "logo of the DaisForAll website";
+  const description = `covidresources posts tagged in ${id}`;
+  const title = `covidresources | Tags | ${id}`;
+  const url = `https://www.covidresources.me/tags/${id}`;
+  const images = "https://www.covidresources.me/logo.png";
+  const alts = "logo of the covidresources website";
+  const imagec = "https://www.covidresources.me/logo.png";
+  const altc = "logo of the covidresources website";
   const tags = `blog, infinity, passionate bloggers, blogs, passionate, write, read, post, live thousand lives in one world, ${data.map(
     (data) => {
       data.title;
@@ -141,11 +141,11 @@ export default function Home(data) {
                             "@type": "Article",
                             mainEntityOfPage: {
                               "@type": "WebPage",
-                              "@id": `https://www.daisforall.com/article/${e._id}`,
+                              "@id": `https://www.covidresources.me/article/${e._id}`,
                             },
                             a: "",
                             headline: e.title,
-                            image: `https://www.daisforall.com/api/image/${e._id}`,
+                            image: `https://www.covidresources.me/api/image/${e._id}`,
                             datePublished: e.dateCreated,
                             dateModified: e.dateUpdated,
                             author: {

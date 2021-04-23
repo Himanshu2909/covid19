@@ -4,13 +4,13 @@ import { Toast, ToastBody } from "react-bootstrap";
 import { Offline } from "react-detect-offline";
 export default function S() {
   const description =
-    "DaisForAll is both like a website and a diary. A place where all people across the globe get a chance to put their views and talent in front of everyone.";
-  const title = "DaisForAll | Live thousand lives in one world";
-  const url = "https://www.daisforall.com";
-  const images = "https://www.daisforall.com/logo.png";
-  const alts = "logo of the DaisForAll website";
-  const imagec = "https://www.daisforall.com/logo.png";
-  const altc = "logo of the DaisForAll website";
+    "COVID RESOURCES - Platform created to share covid details temporarily | Live thousand lives in one wordl | covidresources is both like a website and a diary. A place where all people across the globe get a chance to put their views and talent in front of everyone.";
+  const title = "Covid Resources";
+  const url = "https://www.covidresources.me";
+  const images = "https://www.covidresources.me/logo.png";
+  const alts = "logo of the covidresources website";
+  const imagec = "https://www.covidresources.me/logo.png";
+  const altc = "logo of the covidresources website";
   const tags =
     "blog, infinity, passionate bloggers, blogs, passionate, write, read, post, live thousand lives in one world";
   const card = "summary_large_image";
