@@ -884,12 +884,12 @@ function Error({
   statusCode
 }) {
   const description = "You may have landed on a wrong page.";
-  const title = statusCode ? `DaisForAll | Error ${statusCode}` : "DaisForAll | Error 404";
-  const url = "https://www.daisforall.com/_error";
-  const images = "https://www.daisforall.com/logo.png";
-  const alts = "logo of the DaisForAll website";
-  const imagec = "https://www.daisforall.com/logo.png";
-  const altc = "logo of the DaisForAll website";
+  const title = statusCode ? `covidresources | Error ${statusCode}` : "covidresources | Error 404";
+  const url = "https://www.covidresources.me/_error";
+  const images = "https://www.covidresources.me/logo.png";
+  const alts = "logo of the covidresources website";
+  const imagec = "https://www.covidresources.me/logo.png";
+  const altc = "logo of the covidresources website";
   const tags = `blog, infinity, passionate bloggers, blogs, passionate, write, read, post, live thousand lives in one world, error,${statusCode}`;
   const card = "summary_large_image";
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
@@ -1989,10 +1989,10 @@ function Footer() {
                   style: {
                     cursor: "pointer"
                   },
-                  children: ["DaisForAll", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {})]
+                  children: ["covidresources", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {})]
                 })
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-                children: "DaisForAll offers an opportunity to every blogger out there to display their thoughts in front of everyone. \u2018Better to write for yourself and have no public, than to write for the public and have no self\u2019. DaisForAll is a website where you can write your thoughts and let people live in a thousand worlds before they die."
+              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("p", {
+                children: ["COVID RESOURCES - AMMENDED FOR THE FOLLOWING DUE TO CURRENT CIRCUMBSTANCES ", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), "covidresources offers an opportunity to every blogger out there to display their thoughts in front of everyone. \u2018Better to write for yourself and have no public, than to write for the public and have no self\u2019. covidresources is a website where you can write your thoughts and let people live in a thousand worlds before they die."]
               })]
             })
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
@@ -2016,11 +2016,6 @@ function Footer() {
                   })
                 }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
                   children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-                    href: "/blogs",
-                    children: "\xA0Blogs"
-                  })
-                }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                  children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
                     href: "/privacy-policy",
                     children: "\xA0Privacy Policy"
                   })
@@ -2034,40 +2029,12 @@ function Footer() {
             })
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
             className: "col-xs-12 col-sm-6 col-md-3",
-            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
               className: "widget no-box",
-              children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("h5", {
+              children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("h5", {
                 className: "widget-title",
                 children: ["Follow up", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {})]
-              }), [{
-                url: "https://www.facebook.com/infinity.newTechnology",
-                image: "/facebook.webp",
-                media: "facebook"
-              }, {
-                url: "https://www.instagram.com/infinity.newtech/",
-                image: "/instagram.webp",
-                media: "instagram"
-              }, {
-                url: "https://twitter.com/infinityNewTech",
-                image: "/twitter.webp",
-                media: "twitter"
-              }, {
-                url: "https://www.linkedin.com/in/arnav-gupta-0922341a9/",
-                image: "/linkedin.webp",
-                media: "linkedin"
-              }].map(e => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("a", {
-                className: "fa",
-                href: e.url,
-                style: {
-                  marginRight: "4px"
-                },
-                children: [" ", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
-                  src: e.image,
-                  alt: e.media,
-                  height: "11",
-                  width: "11px"
-                })]
-              }))]
+              })
             })
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
             className: "col-xs-12 col-sm-6 col-md-3",
@@ -2143,7 +2110,7 @@ function Footer() {
                   style: {
                     cursor: "pointer"
                   },
-                  children: "DaisForAll"
+                  children: "covidresources"
                 })
               }), " ", "@ 2021. All rights reserved."]
             })
@@ -4429,15 +4396,15 @@ function Head({
   tags,
   card
 }) {
-  tags = tags + "infiniti, cyou, daisforall, DaisForAll, daisonline, daisOnline,infinity.cyou, arnavgupta.net, passionatebloggers.me, daisforall.com, daisforall.in, www.infinity.cyou, www.arnavgupta.net, www.passionatebloggers.me, www.daisforall.com, www.daisforall.in";
+  tags = tags + "covid19, india, covid resources, infiniti, cyou, covidresources, covidresources, daisonline, daisOnline,infinity.cyou, arnavgupta.net, passionatebloggers.me, covidresources.me, covidresources.in, www.infinity.cyou, www.arnavgupta.net, www.passionatebloggers.me, www.covidresources.me, www.covidresources.in";
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("link", {
       rel: "alternate",
-      href: "https://www.daisforall.com",
+      href: "https://www.covidresources.me",
       hreflang: "x-default"
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("link", {
       rel: "alternate",
-      href: "https://www.daisforall.com",
+      href: "https://www.covidresources.me",
       hreflang: "en-us"
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("link", {
       rel: "alternate",
@@ -4457,7 +4424,7 @@ function Head({
       hreflang: "en-nl"
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("link", {
       rel: "alternate",
-      href: "https://www.daisforall.in/en-in/",
+      href: "https://www.covidresources.in/en-in/",
       hreflang: "en-in"
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("script", {
       type: "application/ld+json",
@@ -4466,7 +4433,7 @@ function Head({
           "@context": "https://schema.org",
           "@type": "Organization",
           url: url,
-          logo: "https://www.daisforall.cyou/logo.png"
+          logo: "https://www.covidresources.cyou/logo.png"
         })
       }
     }, -3), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("script", {
@@ -4479,7 +4446,7 @@ function Head({
           image: imagec,
           name: "Arnav Gupta",
           url: url,
-          sameAs: ["https://www.youtube.com/channel/UCzzfqCy-j9XZA5KNosqzh6w", "https://www.arnavgupta.net//en-nl/", "https://www.infinity.cyou//en-nl/", "https://www.daisforall.com/", "https://www.daisonline.com/en-nl/", "ananyagupta.net", "ananya gupta", "anuja gupta", "amit gupta", "god", "veena", "ashok", "rekha", "kailash", "gaurav", "reyansh", "priyajan", "https://www.daisforall.in//en-in/", "https://www.passionatebloggers.me/en-nl/", "https://www.instagram.com/infinity.newtech/", "https://www.linkedin.com/in/arnav-gupta-0922341a9/", "https://www.facebook.com/infinity.newTechnology", "https://twitter.com/infinityNewTech"]
+          sameAs: ["https://www.youtube.com/channel/UCzzfqCy-j9XZA5KNosqzh6w", "https://www.arnavgupta.net//en-nl/", "https://www.infinity.cyou//en-nl/", "https://www.covidresources.me/", "https://www.daisonline.com/en-nl/", "ananyagupta.net", "ananya gupta", "anuja gupta", "amit gupta", "god", "veena", "ashok", "rekha", "kailash", "gaurav", "reyansh", "priyajan", "https://www.covidresources.in//en-in/", "https://www.passionatebloggers.me/en-nl/", "https://www.instagram.com/infinity.newtech/", "https://www.linkedin.com/in/arnav-gupta-0922341a9/", "https://www.facebook.com/infinity.newTechnology", "https://twitter.com/infinityNewTech"]
         })
       }
     }, -1), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("title", {

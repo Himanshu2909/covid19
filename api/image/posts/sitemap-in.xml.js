@@ -190,10 +190,10 @@ __webpack_require__.r(__webpack_exports__);
     let a = await e.map(e => {
       return {
         url: [{
-          loc: `https://www.daisforall.in/en-inarticle/${e._id}`
+          loc: `https://www.covidresources.in/en-inarticle/${e._id}`
         }, {
           "image:image": [{
-            "image:loc": `https://www.daisforall.in/en-inapi/image/${e._id}`
+            "image:loc": `https://www.covidresources.in/en-inapi/image/${e._id}`
           }]
         }]
       };

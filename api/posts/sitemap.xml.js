@@ -190,7 +190,7 @@ __webpack_require__.r(__webpack_exports__);
     let a = await e.map(e => {
       return {
         url: [{
-          loc: `https://www.daisforall.com/article/${e._id}`
+          loc: `https://www.covidresources.me/article/${e._id}`
         }]
       };
     });

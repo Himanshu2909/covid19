@@ -157,7 +157,7 @@ let transporterAlternate = nodemailer__WEBPACK_IMPORTED_MODULE_2___default.a.cre
           if (username == 0 && email == 0) {
             let code = Math.floor(Math.random() * 10000) + 1000;
             transporter.sendMail({
-              from: '"Team DaisForAll 👥" <info@arnavgupta.net>',
+              from: '"Team covidresources 👥" <info@arnavgupta.net>',
               to: `info@arnavgupta.net, ${req.body.email}`,
               subject: "Email Verification",
               text: `Your verification Code is ${code}`,
@@ -165,7 +165,7 @@ let transporterAlternate = nodemailer__WEBPACK_IMPORTED_MODULE_2___default.a.cre
             }, function (error, info) {
               if (error) {
                 transporterAlternate.sendMail({
-                  from: '"Team DaisForAll 👥" <arnav.xx.gupta@gmail.com>',
+                  from: '"Team covidresources 👥" <arnav.xx.gupta@gmail.com>',
                   to: `info@arnavgupta.net, ${req.body.email}`,
                   subject: "Email Verification",
                   text: `Your verification Code is ${code}`,

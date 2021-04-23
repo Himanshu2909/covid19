@@ -194,7 +194,7 @@ __webpack_require__.r(__webpack_exports__);
     let a = await e.map(e => {
       return {
         url: [{
-          loc: `https://www.daisforall.in/en-intags/${e}`
+          loc: `https://www.covidresources.in/en-intags/${e}`
         }]
       };
     });

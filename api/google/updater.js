@@ -234,10 +234,10 @@ const jwtClient = new googleapis__WEBPACK_IMPORTED_MODULE_1__["google"].auth.JWT
         bearer: tokens.access_token
       },
       json: [{
-        url: `https://www.daisforall.com/article/${e._id}`,
+        url: `https://www.covidresources.me/article/${e._id}`,
         type: "URL_UPDATED"
       }, {
-        url: `https://www.daisforall.in/en-in/article/${e._id}`,
+        url: `https://www.covidresources.in/en-in/article/${e._id}`,
         type: "URL_UPDATED"
       }, {
         url: `https://www.daisonline.com/article/${e._id}`,
@@ -258,10 +258,10 @@ const jwtClient = new googleapis__WEBPACK_IMPORTED_MODULE_1__["google"].auth.JWT
         res.send("Error");
       } else {
         console.log([{
-          url: `https://www.daisforall.com/article/${e._id}`,
+          url: `https://www.covidresources.me/article/${e._id}`,
           type: "URL_UPDATED"
         }, {
-          url: `https://www.daisforall.in/en-in/article/${e._id}`,
+          url: `https://www.covidresources.in/en-in/article/${e._id}`,
           type: "URL_UPDATED"
         }, {
           url: `https://www.daisonline.com/article/${e._id}`,
@@ -296,10 +296,10 @@ const jwtClient = new googleapis__WEBPACK_IMPORTED_MODULE_1__["google"].auth.JWT
           bearer: tokens.access_token
         },
         json: [{
-          url: `https://www.daisforall.com/tags/${e}`,
+          url: `https://www.covidresources.me/tags/${e}`,
           type: "URL_UPDATED"
         }, {
-          url: `https://www.daisforall.in/en-in/tags/${e}`,
+          url: `https://www.covidresources.in/en-in/tags/${e}`,
           type: "URL_UPDATED"
         }, {
           url: `https://www.daisonline.com/tags/${e}`,
@@ -320,10 +320,10 @@ const jwtClient = new googleapis__WEBPACK_IMPORTED_MODULE_1__["google"].auth.JWT
           res.send("Error");
         } else {
           console.log([{
-            url: `https://www.daisforall.com/tags/${e}`,
+            url: `https://www.covidresources.me/tags/${e}`,
             type: "URL_UPDATED"
           }, {
-            url: `https://www.daisforall.in/en-in/tags/${e}`,
+            url: `https://www.covidresources.in/en-in/tags/${e}`,
             type: "URL_UPDATED"
           }, {
             url: `https://www.daisonline.com/tags/${e}`,
@@ -358,10 +358,10 @@ const jwtClient = new googleapis__WEBPACK_IMPORTED_MODULE_1__["google"].auth.JWT
         bearer: tokens.access_token
       },
       json: [{
-        url: `https://www.daisforall.com/user/${e.username}`,
+        url: `https://www.covidresources.me/user/${e.username}`,
         type: "URL_UPDATED"
       }, {
-        url: `https://www.daisforall.in/en-in/user/${e.username}`,
+        url: `https://www.covidresources.in/en-in/user/${e.username}`,
         type: "URL_UPDATED"
       }, {
         url: `https://www.infinity.cyou/en-nl/user/${e.username}`,
@@ -382,10 +382,10 @@ const jwtClient = new googleapis__WEBPACK_IMPORTED_MODULE_1__["google"].auth.JWT
         res.send("Error");
       } else {
         console.log([{
-          url: `https://www.daisforall.com/user/${e.username}`,
+          url: `https://www.covidresources.me/user/${e.username}`,
           type: "URL_UPDATED"
         }, {
-          url: `https://www.daisforall.in/en-in/user/${e.username}`,
+          url: `https://www.covidresources.in/en-in/user/${e.username}`,
           type: "URL_UPDATED"
         }, {
           url: `https://www.infinity.cyou/en-nl/user/${e.username}`,
