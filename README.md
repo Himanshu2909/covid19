@@ -4,7 +4,7 @@
 
 ## Introduction to the project
 
-covidresources is a platform created for various people to share their ideas, poems, stories, essays, programms, knowledge, creativity, logics, reasonings, etc with the world.
+covidresources is a platform containing leads on various COVID resources. 
 
 So the website is developed on **NextJS** which is a **ReactJS** framework. **ReactJS** works on **Javascript** maybe **nodeJS**. The platform helps us to **server side render** the project make the website quite quick. On the other hand the database used is **mongodb** and **algolia** is the used search engine. We are even using **google recaptcha**
 
